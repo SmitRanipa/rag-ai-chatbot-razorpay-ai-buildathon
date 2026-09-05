@@ -1,0 +1,42 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Scrapy
+.scrapy/
+jobs/
+
+# Data (large generated files — rebuild via pipeline)
+data/raw/
+data/clean/
+data/chunks/
+data/chroma_db/
+data/job/
+data/logs/
+data/darshan_pages.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Misc
+*.log
+inspect_out.txt
+project_code.txt
+abc.py
